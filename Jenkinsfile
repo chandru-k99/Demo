@@ -31,7 +31,7 @@ pipeline {
           stage ('Integeration test') {
             agent {
               dockerContainer {
-                resueNode false
+                //resueNode false
                 image 'ubuntu'
               }
             }
